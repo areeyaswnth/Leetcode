@@ -27,6 +27,7 @@
 # 1 <= nums.length <= 1000
 # 0 <= nums[i] < nums.length
 # The elements in nums are distinct.
+#test reopo
 class Solution(object):
     def buildArray(self, nums):
         """
@@ -36,4 +37,5 @@ class Solution(object):
         ls=[]
         for i in range(0,len(nums)):
             ls.append(nums[nums[i]])
+        print()
         return ls
