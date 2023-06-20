@@ -13,7 +13,7 @@
 # Input: flowerbed = [1,0,0,0,1], n = 2
 # Output: false
 class Solution:
-    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
+    def canPlaceFlowers(self, flowerbed: list[int], n: int) -> bool:
         for i in range(len(flowerbed)):
             if(i==0 and flowerbed[0]==0 ):
                     if((len(flowerbed)>1 and flowerbed[1]==0)or (len(flowerbed)<=1 )):
